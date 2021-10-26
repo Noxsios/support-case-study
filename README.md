@@ -1,4 +1,4 @@
-# Battle of Gettysburg presentation
+# CMIT 326 Cloud Vendors Comparison presentation
 
 ## Setup
 
