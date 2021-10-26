@@ -1,8 +1,8 @@
-### The Battle of Gettysburg
+### CMIT 326 - Project 2
 
-#### July 1–3, 1863
+#### 26 Oct 2021
 
-#### `Harry Randazzo`
+#### [`Harry Randazzo`](https://razzle.cloud)
 
 -----
 
@@ -16,111 +16,66 @@ To view all slides press the `ESC` key, otherwise press `>` to move to the next 
 
 -----
 
-## Preface
+## Summary
 
-The _Battle of Gettysburg_ is commonly known to be the turning point of the Civil War.  It marked the last time the South
-attempted an invasion of the North, one of General Robert E. Lee's few disastrous defeats, and later led to the Gettysburg Address, one of the finest works of literature.
-
------
-
-## General Robert E. Lee
-
-![Lee](https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Robert_Edward_Lee.jpg/1200px-Robert_Edward_Lee.jpg)
-
----
-
-## A Tactical Genius
-
-- Commander of the Confederate States Army during the American Civil War.
-- Lee displayed "expert use of the Napoleonic turning movement as described by Antoine de Jomini".
-- Goal was to bring the North to the peace negotiating table through costly defeats in Northern territory.
-- "Became so engrossed with the tactical details and the possibility of achieving an Austerlitz 
-that he lost his focus on directing a campaign linked to political ends."
-- Sought to achieve a strategic and operational objective through a single tactical victory.
+- Company Profile
+- Current Struggles
+- Current Infrastructure
+- Top 3 Cloud Providers
+- Final Recommendations
+- Conclusion
 
 -----
 
-## Day 1 - July 1, 1863
+## Company Profile
 
-![Day_1](https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Gettysburg_Battle_Map_Day1.png/706px-Gettysburg_Battle_Map_Day1.png)
+_Don & Associates_: financial consulting company that provides services to small and medium-sized companies. 
 
----
-
-## The Prelude
-
-- "began as an engagement between isolated units" that "escalated into a major battle which culminated in the outnumbered and defeated Union forces retreating to the high ground south of Gettysburg".
-- Overall a very good victory by the South, despite how disorganized both sides were at the start.
-- Following, Lee chose this ground to become _the_ battle where he would destroy the Northern forces.
+- Operates physical infrastructure, networks, and servers.
+- Looking to expand its services and locations.
+- Worries about the __cost__ of such expansion.
 
 -----
 
-## Day 2 - July 2, 1863
+## Current Struggles
 
-![Day_2](https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Gettysburg_Battle_Map_Day2.png/706px-Gettysburg_Battle_Map_Day2.png)
-
----
-
-## Close Calls
-
-- All of the rest of the infantry from both sides has arrived by morning of Day 2.
-- Confederates nearly broke through the Union's left flank.
-  - Disorganization, miscommunication, and general upper level leadership failures (sounds like a normal Tuesday in the military to me).
-- Heavy casualties on both sides.
-- Led to Lee believing that a similar strategy, but with more fresh troops committed, could prevail and crush the Union forces the following day.
+> struggles here
 
 -----
 
-## Day 3 - July 3, 1863
+## Current Infrastructure
 
-![Charge](https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Pickett%27s-Charge.png/800px-Pickett%27s-Charge.png)
+> infrastructure here
 
----
+-----
 
-## The Charge
+## Top 3 Cloud Providers
 
-- Early afternoon artillery bombardment by Confederate cannons on Union central lines.
-  - Overshot and did little to soften (imagine if they had modern satellite imagery).
-- 3/4 quarters of a mile distance to travel.
-  - With fences and other obstacles in the way.
-  - With Cemetery Hill to climb at the end.
-  - Under both infantry and artillery fire. (Hopefully the bombardment would have taken care of the artillery)
-  - To finally face the center of the Union lines.
-  - With zero way of knowing the strength of the enemy.
-  - I would have questioned my commander's sanity if I received these orders.
-- cont.
+> top 3 here
 
 ---
 
-## The Charge Cont.
+## Amazon
 
-- 7,000+ Confederate troops made the charge, less than half returned.
-- Predicting this strategy, Union General Meade had forces on the right side of his center turn to engage, as well as artillery from the left side also engaged.
-  - Essentially a modern day "kill box" was formed for the Confederates to charge into.
+> amazon info here
 
 ---
 
-## Principles
+## Microsoft
 
-This battle was lost due to misuse and misunderstanding the Principles of War.
-
-- There was zero `Surprise` in Lee's orders
-  - Day 1 attempted to seize viable high ground and organize
-  - Day 2 attacked both flanks, nearly succeeding
-  - Day 3 attack the center
-- Lee chose to fight Gettysburg knowing that the North had the superior ground, 
-he failed to `Manuever` his forces into a advantageous position.
-- The Confederate forces, following the death of General "Stonewall" Jackson, had many newly promoted officers
-  - They lacked solid `Unity of Command`
-- cont.
+> ms info here
 
 ---
 
-## Principles Cont.
+## Google
 
-- At the end of Day 1, Confederate forces under General Hill failed to capture Cemetery Hill, showing a failure of `Security`
-- During Pickett's Charge the Confederate forces were unable to join together and form a single `Mass` to break through the Union's lines.
+> google info here
 
-While Lee was a great tactician, he failed to employ the Principles of War to their fullest at the most crucial point in the Civil War.  
+-----
+
+## Final Recommendations
+
+> i recommend x because...
 
 -----
 

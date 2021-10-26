@@ -10,7 +10,7 @@ h6 {
 
 p,
 li {
-  color: #94ff99 !important;
+  color: #59be5e !important;
 }
 
 img {
@@ -28,4 +28,8 @@ code {
   border-radius: 3px;
   padding-left: 3px;
   padding-right: 3px;
+}
+
+.present p {
+  text-align: left;
 }
