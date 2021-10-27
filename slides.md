@@ -39,7 +39,12 @@ _Don & Associates_: financial consulting company that provides services to small
 
 ## Current Struggles
 
-> struggles here
+Future expansion will cause increased:
+
+- Need for personnel, equipment, etc... (_cost_)
+- Uptime requirements (_availability/reliability_)
+- Maintenance complexity (_scalability_)
+- Overall system complexity (_repeatability_)
 
 -----
 
