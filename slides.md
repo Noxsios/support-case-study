@@ -4,6 +4,8 @@
 
 #### [`Harry Randazzo`](https://razzle.cloud)
 
+<small>Press the play button below to start the audio.</small>
+
 -----
 
 Navigate using your arrow keys. If you see a &#8681; in the bottom right nav there is content below. Try it now!
@@ -22,7 +24,7 @@ To view all slides press the `ESC` key, otherwise press `>` to move to the next 
 - Current Struggles
 - Current Infrastructure
 - Top 3 Cloud Providers
-- Final Recommendations
+- Final Recommendation
 - Conclusion
 
 -----
@@ -52,6 +54,7 @@ Future expansion will cause increased:
 
 - Internal:
   - 2 servers (primary+backup) with Windows Server 2019 running Microsoft Active Directory for domain management / user access control.
+  - 200 users.
   - 30 Cisco Catalyst 2960G switches (access).
   - 4 Cisco Catalyst 9300 switches (core).
 - External:
@@ -66,31 +69,81 @@ Future expansion will cause increased:
 
 ## Top 3 Cloud Providers
 
-> top 3 here
+- Amazon (AWS)
+- Microsoft (Azure)
+- Google (GCP)
+
+---
+
+## Infographic comparison
+
+![infographic](https://eadn-wc03-4064062.nxedge.io/cdn/wp-content/uploads/2021/05/Aws-vs-azure-vs-gcp-services.png)
+
+---
+
+## Infographic cont.
+
+![Compare Types](images/compute_compare.png)
+
+[photo cred](https://intellipaat.com/blog/aws-vs-azure-vs-google-cloud/)
 
 ---
 
 ## Amazon
 
-> amazon info here
+- Largest market share / most mature.
+- _“Currently, serves 245 countries and spans 25 geographic regions”_.
+- _“Fees are based on a pay-as-you-go model, depending on the hardware and software or
+networking options chosen.”_
+- __Prices have not gone down since 2014.__
+- Services do not interact well with non AWS
+services.
+- Can become locked into the AWS ecosystem.
 
 ---
 
 ## Microsoft
 
-> ms info here
+- Similar pricing / pay model to AWS.
+  - Slightly more affordable.
+- Much clearer naming conventions for services.
+  - Ex. `Elastic Compute Cloud` vs `Virtual Machines`
+- Great interoperabilty w/ onprem Microsoft products.
+  - ex. Azure Active Directory, Azure SQL...
+- __Advantage: made by Microsoft, Disadvantage: made by Microsoft__
 
 ---
 
 ## Google
 
-> google info here
+- Pay per _second_ vs pay per _minute_.
+- Better _“machine learning and data science capabilities with it’s products like TensorFlow, ML Kit and Google Datasets.”_
+- No vendor lock-in.
+- Not as mature / full featured.
 
 -----
 
-## Final Recommendations
+## Final Recommendation
 
-> i recommend x because...
+> AWS
+
+- Mature
+- Reliable
+- Scalable
+- _Caveats:_
+  - Build services to not rely upon AWS specific features
+  - Utilize open-source
+  - Fully evaluate pricing model(s) for our exact use case
+
+-----
+
+## Conclusion
+
+- Company Profile
+- Current Struggles
+- Current Infrastructure
+- Top 3 Cloud Providers
+- Final Recommendation
 
 -----
 
@@ -108,13 +161,14 @@ Future expansion will cause increased:
 
 #### [favicon.io](https://favicon.io/)
 
+plus some customizations by yours truly
+
 -----
 
 ## Works Cited
 
-- Lee - In Search of the Decisive Battle at Gettysburg - Michael J. Forsyth
-- [History.net](https://www.historynet.com/picketts-charge-gettysburg)
-- [Wikipedia](https://en.wikipedia.org/wiki/Battle_of_Gettysburg)
-- [The Killer Angels](https://en.wikipedia.org/wiki/The_Killer_Angels) - Highly recommended read, a lot of my Civil War knowledge comes from this series.
+- \[1\] https://k21academy.com/amazon-web-services/aws-solutions-architect/aws-vs-azure-vs-gcp/
+- \[2\] https://www.avenga.com/magazine/top-cloud-service-providers/
+- \[3\] https://cloud.google.com/free/docs/aws-azure-gcp-service-comparison
 
-[Repo URL](https://github.com/Noxsios/gettysburg)
+[Repo URL](https://github.com/Noxsios/compare-cloud-vendors)

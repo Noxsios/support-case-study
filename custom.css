@@ -13,10 +13,10 @@ li {
   color: #59be5e !important;
 }
 
-img {
+/* img {
   max-width: 50% !important;
   max-height: 12em !important;
-}
+} */
 
 .present > p,
 li {
@@ -30,6 +30,6 @@ code {
   padding-right: 3px;
 }
 
-.present p {
+/* .present p {
   text-align: left;
-}
+} */
