@@ -50,7 +50,17 @@ Future expansion will cause increased:
 
 ## Current Infrastructure
 
-> infrastructure here
+- Internal:
+  - 2 servers (primary+backup) with Windows Server 2019 running Microsoft Active Directory for domain management / user access control.
+  - 30 Cisco Catalyst 2960G switches (access).
+  - 4 Cisco Catalyst 9300 switches (core).
+- External:
+  - 2 domains owned: `donandassociates.com` and `donandassociates.org`.
+  - Domains leased via Google Domains, with Google also providing DNS.
+  - 1 Cisco ASA (firewall)
+  - 1 Cisco ISR 1100 (router)
+- Contracts:
+  - Salesforce (CRM)
 
 -----
 
