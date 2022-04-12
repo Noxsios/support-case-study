@@ -91,7 +91,11 @@
 
 > What did you find challenging or interesting about one or two of the support cases?
 
-I enjoyed writing up ticket `2002`.  Because I had already experienced that exact scenario, I knew immediately that the beeps were a POST code, and was able to quickly perform a Google search for the POST codes for that Dell model.  Dell's documentation confirmed my suspicions, the 1-3-2 code pattern meant that there was a memory failure.  What made this scenario so enjoyable was the trip down memory lane I took while answering it.  One of the first tickets I ever pursued at my first I.T. position was figuring out why certain desktops were failing to turn on after a failed Windows 7 - 10 upgrade, with beeps during startup being the only symptom; the ultimate solution being a bad batch of RAM.
+<section style="text-align: left;">
+I enjoyed writing up ticket `2002`.  Because I had already experienced that exact scenario, I knew immediately that the beeps were a POST code, and was able to quickly perform a Google search for the POST codes for that Dell model.  Dell's documentation confirmed my suspicions, the 1-3-2 code pattern meant that there was a memory failure.  What made this scenario so enjoyable was the trip down memory lane I took while answering it.  
+
+One of the first tickets I ever pursued at my first I.T. position was figuring out why certain desktops were failing to turn on after a failed Windows 7 - 10 upgrade, with beeps during startup being the only symptom; the ultimate solution being a bad batch of RAM.
+</section>
 
 -----
 
