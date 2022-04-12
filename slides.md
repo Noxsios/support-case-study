@@ -20,28 +20,28 @@ To view all slides press the `ESC` key, otherwise press `>` to move to the next 
 
 ## Level 1 Tickets
 
-- Ticket
-- Ticket
+- Ticket `1001`: My Printer Ink is Smearing!
+- Ticket `1005`: Google Is Missing
 
----
+-----
 
-### Ticket Title + `number`
+### Ticket `1001`
 
-> scenario
+> I just tried to print an important color document—the marketing budget proposal supporting the new designs to debut just prior to the Oscars in Los Angeles. It keeps smearing, and I have blue toner all over my hands!
 
-- Problem
-- Probable cause
+- Problem: Printer is smearing color ink.
+- Probable cause: Incorrect paper type.
 - Theory of actual cause
-- Plan of action
+- Plan of action \[0\]
 
----
+-----
 
-### Ticket Title + `number`
+### Ticket `1005`
 
-> scenario
+> I am working from home and can't reach www.google.com to research shipping quotes.
 
-- Problem
-- Probable cause
+- Problem: Unable to access Google (and therefore shipping quotes).
+- Probable cause: ISP is down.
 - Theory of actual cause
 - Plan of action
 
@@ -115,6 +115,14 @@ To view all slides press the `ESC` key, otherwise press `>` to move to the next 
 
 -----
 
+## References
+
+- \[1\] https://www.yoyoink.com/articles/printer-leaving-ink-smudges-on-paper/
+
+[Repo URL](https://github.com/Noxsios/support-case-study)
+
+-----
+
 ## made with
 
 #### [reveal.js](https://github.com/hakimel/reveal.js)
@@ -126,13 +134,3 @@ To view all slides press the `ESC` key, otherwise press `>` to move to the next 
 #### [favicon.io](https://favicon.io/)
 
 plus some customizations by yours truly
-
------
-
-## References
-
-- \[1\] https://k21academy.com/amazon-web-services/aws-solutions-architect/aws-vs-azure-vs-gcp/
-- \[2\] https://www.avenga.com/magazine/top-cloud-service-providers/
-- \[3\] https://cloud.google.com/free/docs/aws-azure-gcp-service-comparison
-
-[Repo URL](https://github.com/Noxsios/compare-cloud-vendors)
