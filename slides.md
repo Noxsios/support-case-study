@@ -21,7 +21,7 @@
 
 - __Problem:__ Printer is smearing color ink.
 - __Analysis:__ Ink needs a little time to settle on a page, so this may be a simple case of needing to give the ink a bit more time to dry. There is no printer type information given (ie, laser vs inkjet). From the given information, I lean towards either the wrong paper being used, or the Cyan cartridge needs to be replaced.
-- __Resolution:__ The easiest resolution would be to use a different printer if possible.  If not, another soultion would be to use a different paper type.  Other troubleshooting steps or solutions can be found here [1](https://www.yoyoink.com/articles/printer-leaving-ink-smudges-on-paper/).
+- __Resolution:__ The easiest resolution would be to use a different printer if possible.  If not, another solution would be to use a different paper type.  Other troubleshooting steps or solutions can be found here [1](https://www.yoyoink.com/articles/printer-leaving-ink-smudges-on-paper/).
 
 -----
 
@@ -67,7 +67,7 @@
 ## Level 3 Tickets
 
 - Ticket `3001`
-- Ticket
+- Ticket `3002`
 
 -----
 
@@ -86,8 +86,8 @@
 > I was trying to share my digital mock-ups with Gabrielle, my supervisor. Now my computer screen is all green with a sad face. It says something about "critical process died."   
 
 - __Problem:__ GSOD from "critical process died."
-- __Analysis:__ Green/Blue Screens of Death can have any number of causes, and nothing leaps out to me in this scenario as to what is the defnite cause.  The given error code: critical process died, lets me know that a core part of the OS is corrupted, or not working properly.  Some form of a reset procedure is needed.
-- __Resolution:__  If nothing critical was stored on the machine, I would have the user swap with a new one, and perform a full reset on that mchine.  If local work needed to be saved/recovered I would follow the steps in this article [5](https://www.makeuseof.com/tag/critical-process-died/), or refer to a more senior technician for guidance.
+- __Analysis:__ Green/Blue Screens of Death can have any number of causes, and nothing leaps out to me in this scenario as to what is the definite cause.  The given error code: critical process died, lets me know that a core part of the OS is corrupted, or not working properly.  Some form of a reset procedure is needed.
+- __Resolution:__  If nothing critical was stored on the machine, I would have the user swap with a new one, and perform a full reset on that machine.  If local work needed to be saved/recovered I would follow the steps in this article [5](https://www.makeuseof.com/tag/critical-process-died/), or refer to a more senior technician for guidance.
 
 -----
 
