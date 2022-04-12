@@ -20,8 +20,8 @@ To view all slides press the `ESC` key, otherwise press `>` to move to the next 
 
 ## Level 1 Tickets
 
-- Ticket `1001`: My Printer Ink is Smearing!
-- Ticket `1005`: Google Is Missing
+- Ticket `1001`
+- Ticket `1005`
 
 -----
 
@@ -29,10 +29,9 @@ To view all slides press the `ESC` key, otherwise press `>` to move to the next 
 
 > I just tried to print an important color document—the marketing budget proposal supporting the new designs to debut just prior to the Oscars in Los Angeles. It keeps smearing, and I have blue toner all over my hands!
 
-- Problem: Printer is smearing color ink.
-- Probable cause: Incorrect paper type.
-- Theory of actual cause
-- Plan of action \[0\]
+- __Problem:__ Printer is smearing color ink.
+- __Analysis:__ Ink needs a little time to settle on a page, so this may be a simple case of needing to give the ink a bit more time to dry. There is no printer type information given (ie, laser vs inkjet). From the given information, I lean towards either the wrong paper being used, or the Cyan cartridge needs to be replaced.
+- __Resolution:__ The easiest resolution would be to use a different printer if possible.  If not, another soultion would be to use a different paper type.  Other troubleshooting steps or solutions can be found here [1](https://www.yoyoink.com/articles/printer-leaving-ink-smudges-on-paper/).
 
 -----
 
@@ -40,68 +39,65 @@ To view all slides press the `ESC` key, otherwise press `>` to move to the next 
 
 > I am working from home and can't reach www.google.com to research shipping quotes.
 
-- Problem: Unable to access Google (and therefore shipping quotes).
-- Probable cause: ISP is down.
-- Theory of actual cause
-- Plan of action
+- __Problem:__ Unable to access Google (and therefore shipping quotes).
+- __Analysis:__ ISP is down.
+- __Resolution:__
+
+> TODO COME BACK
 
 -----
 
 ## Level 2 Tickets
 
-- Ticket
-- Ticket
+- Ticket `2002`
+- Ticket `2005`
 
----
+-----
 
-### Ticket Title + `number`
+### Ticket `2002`
 
-> scenario
+> My Dell OptiPlex 9020 Mini Tower will not go to the Windows desktop. I heard a series of audible sounds, like Morse code?!? I think the pattern is one, followed by three, then two. What does that mean?
 
-- Problem
-- Probable cause
-- Theory of actual cause
-- Plan of action
+- __Problem:__ Desktop fails to boot into Windows.
+- __Analysis:__ From my years of experience in the IT field, I know that these beeps are what is known as a POST (power on self test)/beep code. From Dell's Owners Manual for this model [2](https://www.dell.com/support/manuals/en-us/optiplex-9020-desktop/opt9020mtom-v2/beep-code?guid=guid-079a6bc2-e8ab-414f-b255-b79b9b0614a1), I can see that this beep code is caused by memory failure. 
+- __Resolution:__  For a temporary fix, swap out the RAM with a known good/working computer's RAM.  Long term fix would be to contact Dell support and request replacement RAM. [Source](https://www.dell.com/support/kbdoc/en-us/000126068/how-to-diagnose-and-resolve-common-memory-issues-on-a-dell-desktop-pc#32)
 
----
+-----
 
-### Ticket Title + `number`
+### Ticket `2005`
 
-> scenario
+> I need to access my sales projections on the shared drive. I could access them yesterday afternoon, no problem. My boss is really leaning on me to get those figures in and he needs access right away. 
 
-- Problem
-- Probable cause
-- Theory of actual cause
-- Plan of action
+- __Problem:__ Unable to access shared drive.
+- __Analysis:__ Blake's computer is not pulling an IP address from the company's DHCP server.  This is proven by `ipconfig` returning an address starting in `169.254`, which is a _"link-local"_ only address.  RFC 5735 source [3](https://datatracker.ietf.org/doc/html/rfc5735#:~:text=any%20network%20anywhere.-,169.254.0.0,-/16%20%2D%20This%20is)
+- __Resolution:__ There are any number of reasons why this machine is not pulling from DHCP. I would first run a `ipconfig /release /renew` to flush the machines DHCP configuration, and double check the ethernet cable is connected and has link lights.  If this does not solve the issue, further analysis and testing is required.
 
 -----
 
 ## Level 3 Tickets
 
-- Ticket
+- Ticket `3001`
 - Ticket
 
----
+-----
+
+### Ticket `3001`
+
+> I can't reach the site www.pinterest.com on my machine. My colleague in the next office said he also cannot access the internet using Firefox. I know some network guys installed a new wireless router in the office last night as I spoke to them when I was leaving. Could that have something to do with it?
+
+- __Problem:__ Unable to reach Pinterest/Internet.
+- __Analysis:__ From the given information, and Jen's follow-up, I can determine that the issue lies in the router's DHCP pool configuration.  The router is properly assigning IP addresses in a C class range, but it does not have a default gateway attached to that pool.  
+- __Resolution:__ Configure the default gateway on the `192.168.1.0/24` DHCP pool to `192.168.1.1`.  This is determined by both the given preferred DNS server, as well as `192.168.1.1` is the standard default gateway for the given /24 subnet.
+
+-----
 
 ### Ticket Title + `number`
 
 > scenario
 
-- Problem
-- Probable cause
-- Theory of actual cause
-- Plan of action
-
----
-
-### Ticket Title + `number`
-
-> scenario
-
-- Problem
-- Probable cause
-- Theory of actual cause
-- Plan of action
+- __Problem:__
+- __Analysis:__
+- __Resolution:__
 
 -----
 
@@ -118,6 +114,9 @@ To view all slides press the `ESC` key, otherwise press `>` to move to the next 
 ## References
 
 - \[1\] https://www.yoyoink.com/articles/printer-leaving-ink-smudges-on-paper/
+- \[2\] https://www.dell.com/support/manuals/en-us/optiplex-9020-desktop/opt9020mtom-v2/beep-code?guid=guid-079a6bc2-e8ab-414f-b255-b79b9b0614a1
+- \[3\] https://datatracker.ietf.org/doc/html/rfc5735#:~:text=any%20network%20anywhere.-,169.254.0.0,-/16%20%2D%20This%20is
+- 
 
 [Repo URL](https://github.com/Noxsios/support-case-study)
 
