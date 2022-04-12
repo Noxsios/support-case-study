@@ -33,15 +33,21 @@
     <script src="reveal.js/plugin/markdown/markdown.js"></script>
     <script src="reveal.js/plugin/highlight/highlight.js"></script>
     <script src="reveal.js/plugin/zoom/zoom.js"></script>
-    <script src="reveal.js/plugin/record/plugin.js"></script>
+    <!-- <script src="reveal.js/plugin/record/plugin.js"></script> -->
     <script>
       Reveal.initialize({
         hash: true,
-        plugins: [RevealMarkdown, RevealHighlight, RevealNotes, RevealZoom, RevealAudioSlideshow],
-        audio: {
-          autoplay: false,
-          defaultDuration: 10,
-        },
+        plugins: [
+          RevealMarkdown,
+          RevealHighlight,
+          RevealNotes,
+          RevealZoom,
+          //  RevealAudioSlideshow
+        ],
+        // audio: {
+        //   autoplay: false,
+        //   defaultDuration: 10,
+        // },
         width: 1920,
         height: 1080,
         margin: 0.01,
