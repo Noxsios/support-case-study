@@ -4,32 +4,5 @@ h3,
 h4,
 h5,
 h6 {
-  color: #c2870a !important;
   font-family: "Montserrat", sans-serif !important;
 }
-
-p,
-li {
-  color: #59be5e !important;
-}
-
-/* img {
-  max-width: 50% !important;
-  max-height: 12em !important;
-} */
-
-.present > p,
-li {
-  font-size: 2vw;
-}
-
-code {
-  background-color: #3b3b3b;
-  border-radius: 3px;
-  padding-left: 3px;
-  padding-right: 3px;
-}
-
-/* .present p {
-  text-align: left;
-} */
