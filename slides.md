@@ -4,8 +4,6 @@
 
 #### [`Harry Randazzo`](https://razzle.cloud)
 
-<small>Press the play button below to start the audio.</small>
-
 -----
 
 ## Level 1 Tickets
